@@ -1,0 +1,22 @@
+[
+  { "id": 1, "name": "Himanshi Shukla", "class": "President", "about": "Description 1", "socialLink": "https://example.com/social1", "image": "/teams/coreteam/1.jpg", "mobileNumber": "+91 7355153603" },
+  { "id": 2, "name": "Vanshika Singh", "class": "Vice-President", "about": "Description 2", "socialLink": "https://example.com/social2", "image": "/teams/coreteam/2.jpg", "mobileNumber": "+91 7408446737" },
+  { "id": 3, "name": "Aditya Khanna", "class": "Joint President", "about": "Description 3", "socialLink": "https://example.com/social3", "image": "/teams/coreteam/3.jpg", "mobileNumber": "+91 9956723211" },
+  { "id": 4, "name": "Sakshi", "class": "Joint Vice-President", "about": "Description 4", "socialLink": "https://example.com/social4", "image": "/teams/coreteam/4.jpg", "mobileNumber": "+91 7081544524" },
+  { "id": 5, "name": "Ayush Gupta", "class": "Joint Vice-President", "about": "Description 5", "socialLink": "https://example.com/social5", "image": "/teams/coreteam/5.jpg", "mobileNumber": "+91 9555623296" },
+  { "id": 6, "name": "Ashish Scott", "class": "Secretary", "about": "Description 6", "socialLink": "https://example.com/social6", "image": "/teams/coreteam/6.jpg", "mobileNumber": "+91 7355064414" },
+  { "id": 7, "name": "Arnavi Mishra", "class": "Joint Secretary", "about": "Description 7", "socialLink": "https://example.com/social7", "image": "/teams/coreteam/7.jpg", "mobileNumber": "+91 8177009755" },
+  { "id": 8, "name": "Arya Jaiswal", "class": "Joint Secretary", "about": "Description 8", "socialLink": "https://example.com/social8", "image": "/teams/coreteam/8.jpg", "mobileNumber": "+91 8707326853" },
+  { "id": 9, "name": "Vidit Pandey", "class": "Technical Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/9.jpg", "mobileNumber": "+91 7355258137" },
+  { "id": 10, "name": "Raj Pandey", "class": "Technical Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/10.jpg", "mobileNumber": "+91 6387857122" },
+  { "id": 11, "name": "Akshay Patel", "class": "Joint-Technical Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/11.jpg", "mobileNumber": "+91 9807569447" },
+  { "id": 12, "name": "Prajjwal", "class": "Joint-Technical Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/12.jpg", "mobileNumber": "+91 8081616474" },
+  { "id": 13, "name": "Ketan Yadav", "class": "Cultural Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/13.jpg", "mobileNumber": "+91 9628544897" },
+  { "id": 14, "name": "Vaibhavi Dubey", "class": "Cultural Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/14.jpg", "mobileNumber": "+91 6307925087" },
+ 
+  { "id": 16, "name": "Niharika Belani", "class": "Joint Cultural Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/16.jpg", "mobileNumber": "+91 7055273372" },
+  { "id": 17, "name": "Akanksha", "class": "Treasurer", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/17.jpg", "mobileNumber": "+91 9651516643" },
+  { "id": 18, "name": "Mohit Sharma", "class": "Joint Treasurer", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/18.jpg", "mobileNumber": "+91 9335790009" },
+  { "id": 19, "name": "Prakul Tyagi", "class": "Promotional Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/19.jpg", "mobileNumber": "+91 7905114355" },
+  { "id": 20, "name": "Aditya Shukla", "class": "Joint-Promotional Head", "about": "Description 9", "socialLink": "https://example.com/social9", "image": "/teams/coreteam/20.jpg", "mobileNumber": "+91 8081498513" }
+]

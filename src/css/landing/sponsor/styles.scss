@@ -1,0 +1,97 @@
+body {
+    margin-top: 50px;
+    background: linear-gradient(
+      to bottom,
+      #ffd700,
+      #b8860b
+    );
+  }
+  
+  .sponsors-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background: radial-gradient(
+        ellipse farthest-corner at right bottom,
+        #FEDB37 0%,
+        #FDB931 8%,
+        #9f7928 30%,
+        #8A6E2F 40%,
+        transparent 80%
+      ),
+      radial-gradient(
+        ellipse farthest-corner at left top,
+        #FFFFFF 0%,
+        #FFFFAC 8%,
+        #D1B464 25%,
+        #5d4a1f 62.5%,
+        #5d4a1f 100%
+      );
+    color: #000;
+  }
+  
+  .category-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .category-sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .sponsor-card {
+    background: linear-gradient(to bottom right, gold, #ffd700);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    width: 300px;
+    margin-bottom: 20px;
+  
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+      border-bottom: 2px solid #000;
+    }
+  
+    h3 {
+      padding: 10px;
+      margin: 0;
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+  
+  .powered {
+    border: 3px solid goldenrod;
+  }
+  
+  .platinum {
+    border: 3px solid #030303;
+  }
+  
+  .diamond {
+    border: 3px solid #a8efff;
+  }
+  
+  .gold {
+    border: 3px solid #ffcc00;
+  }
+  
+  .silver {
+    border: 3px solid #bbbbbb;
+  }
+  

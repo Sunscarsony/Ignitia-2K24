@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "Sanat Mishra",
+    "class": "ELITE-III",
+    "about": "Developer",
+    "githubLink": "https://github.com/SkMishra77",
+    "linkedinLink": "https://www.linkedin.com/in/skmishra77/",
+    "image": "/teams/devteam/sanat.jpg",
+    "mobileNumber": "+91 77528 02619"
+  },
+  {
+    "id": 2,
+    "name": "Ayush Agnihotri",
+    "class": "ELITE-III",
+    "about": "Developer",
+    "githubLink": "https://mrayush.in/connect",
+    "linkedinLink": "https://github.com/AyushAgnihotri2025",
+    "image": "/teams/devteam/ayush.jpg",
+    "mobileNumber": "+91 80905 49709"
+  },
+  {
+    "id": 3,
+    "name": "Satvik Shukla",
+    "class": "ELITE-III",
+    "about": "Developer",
+    "githubLink": "https://github.com/deadland2002",
+    "linkedinLink": "https://www.linkedin.com/in/satvik-shukla-a758791b1/",
+    "image": "/teams/devteam/satvik.jpg",
+    "mobileNumber": "+91 92609 81550"
+  },
+  {
+    "id": 4,
+    "name": "Ashutosh Pandey",
+    "class": "ELITE-III",
+    "about": "Developer",
+    "githubLink": "https://github.com/ashupandey1620",
+    "linkedinLink": "https://linkedin.com/in/AshutoshPandey",
+    "image": "/teams/devteam/ashutosh.jpg",
+    "mobileNumber": "+91 63864 15830"
+  },
+  {
+    "id": 5,
+    "name": "Rishabh Didwania",
+    "class": "ELITE-III",
+    "about": "Developer",
+    "githubLink": "https://github.com/",
+    "linkedinLink": "https://www.linkedin.com/in/rishabh-didwania/",
+    "image": "/teams/devteam/rishabh.jpg",
+    "mobileNumber": "+91 77528 65129"
+  },
+  {
+    "id": 6,
+    "name": "Suraj Sachan",
+    "class": "IT-III",
+    "about": "Developer",
+    "githubLink": "https://github.com/Surajsachan29889",
+    "linkedinLink": "https://linkedin.com/in/surajsachan",
+    "image": "/teams/devteam/suraj.jpg",
+    "mobileNumber": "+91 63938 06660"
+  },
+  {
+    "id": 7,
+    "name": "Shivam Singh",
+    "class": "ELITE-II",
+    "about": "Developer",
+    "githubLink": "https://github.com/myselfshivams",
+    "linkedinLink": "https://www.linkedin.com/in/itshivam/",
+    "image": "/teams/devteam/shivam.jpg",
+    "mobileNumber": "+91 79062 15489"
+  },
+  {
+    "id": 8,
+    "name": "Sanskar Soni",
+    "class": "ELITE-II",
+    "about": "Developer",
+    "githubLink": "https://github.com/Sunscarsony",
+    "linkedinLink": "https://linkedin.com/in/SanskarSoni",
+    "image": "/teams/devteam/sanskar.jpg",
+    "mobileNumber": "+91 96962 79459"
+  },
+  {
+    "id": 9,
+    "name": "Ritik Gupta",
+    "class": "CS-AIML-II-B",
+    "about": "Developer",
+    "githubLink": "https://github.com/",
+    "linkedinLink": "https://www.linkedin.com/in/ritikgupta2026/",
+    "image": "/teams/devteam/ritik.jpg",
+    "mobileNumber": "+91 97932 73692"
+  },
+  {
+    "id": 10,
+    "name": "Aryan Bajpai",
+    "class": "CS-AI-II-C",
+    "about": "Developer",
+    "githubLink": "https://github.com/codernotme",
+    "linkedinLink": "https://www.linkedin.com/in/codernotme/",
+    "image": "/teams/devteam/aryan.jpg",
+    "mobileNumber": "+91 97953 41919"
+  }
+]

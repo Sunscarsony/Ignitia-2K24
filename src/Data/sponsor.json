@@ -1,0 +1,52 @@
+{
+  "sections": [
+    {
+      "name": "Food",
+      "categories": [
+        {
+          "name": "Powered By",
+          "sponsors": [
+            { "title": "Sponsor 1", "image": "/images/sponsor.png" },
+            { "title": "Sponsor 2", "image": "/images/sponsor.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "categories": [
+        {
+          "name": "Powered By",
+          "sponsors": [
+            { "title": "Sponsor 1", "image": "/images/sponsor.png" },
+            { "title": "Sponsor 2", "image": "/images/sponsor.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Knowledge",
+      "categories": [
+        {
+          "name": "Powered By",
+          "sponsors": [
+            { "title": "Sponsor 1", "image": "/images/sponsor.png" },
+            { "title": "Sponsor 2", "image": "/images/sponsor.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "categories": [
+        {
+          "name": "Powered By",
+          "sponsors": [
+            { "title": "Sponsor 1", "image": "/images/sponsor.png" },
+            { "title": "Sponsor 2", "image": "/images/sponsor.png" }
+          ]
+        }
+      ]
+    }
+  ]
+}

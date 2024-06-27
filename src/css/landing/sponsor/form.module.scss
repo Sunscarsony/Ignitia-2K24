@@ -1,0 +1,103 @@
+.goldenSubtitle {
+    background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+    background-size: 150%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+    animation: MoveBackgroundPosition 6s ease-in-out infinite;
+    font-size: 2rem;
+    font-family: iosFont;
+
+  }
+  
+  /* Form container */
+  .sponsorshipOpportunities {
+    text-align: center;
+    padding: 40px;
+    color: gold;
+  }
+  
+  /* Form headings */
+  .sponsorshipOpportunities h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: iosFont;
+  }
+  
+  /* Bold text in the form */
+  .sponsorshipOpportunities b {
+    color: #c99b52;
+    font-size: 20px;
+  }
+  
+  /* Form paragraph */
+  .sponsorshipOpportunities p {
+    margin-block-end: 40px;
+    color: white;
+    font-weight: 550;
+    text-align: justify;
+  }
+  .sponsorshipOpportunities .sponsorshipTypeContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start; /* Align buttons to the left */
+  }
+  
+  /* Style for the radio button labels */
+  .sponsorshipOpportunities .sponsorshipTypeContainer label {
+    display: inline-block;
+    cursor: pointer;
+  }
+  /* Form container for input fields and buttons */
+  .sponsorshipOpportunities .hoverBox {
+    width: 500px;
+    background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+    
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    transition: all 0.3s ease;
+  }
+  
+  /* Form input fields and selects */
+  .sponsorshipOpportunities input,
+  .sponsorshipOpportunities select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+  
+    &:focus {
+      outline: none;
+      border-color: gold;
+    }
+  }
+  
+  /* Submit button */
+  .sponsorshipOpportunities .submitButton {
+    display: block;
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: #ff00ff; 
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  
+    &:hover {
+      background-color: #ff66ff;
+      box-shadow: 0 0 15px #ff66ff, 0 0 25px #ff66ff, 0 0 35px #ff66ff;
+    }
+  }
+  

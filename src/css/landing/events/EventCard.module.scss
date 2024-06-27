@@ -1,0 +1,56 @@
+.parent{
+  position: relative;
+  box-shadow: 5px 5px 15px 3px rgba(255, 255, 255, 0.18);
+
+  @apply rounded-xl overflow-hidden;
+  .mainCard{
+
+  }
+  .overlay{
+    @apply flex flex-col justify-between items-center gap-3 p-2 pb-10;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 80%;
+    left: 0;
+    position: absolute;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0, 0, 0, 0.32);
+    transition: all .3s;
+
+    .btn{
+      box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.29)
+    }
+
+    .heading{
+      @apply font-semibold text-medium text-center;
+      font-family: "Inter","Poppins","sans-serif";
+    }
+
+  }
+  &:hover .overlay{
+    top: 0;
+  }
+}
+
+.modalParent{
+  .datawrapper{
+    @apply box-border p-2 text-sm;
+    .active{
+      @apply border-b-2 border-purple-600 text-purple-600;
+    }
+  }
+  .imagePopup{
+
+  }
+}
+
+
+@media (max-width: 600px) {
+    .modalParent{
+      .imagePopup{
+        display: none;
+      }
+    }
+}

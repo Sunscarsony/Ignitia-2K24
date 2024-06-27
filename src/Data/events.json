@@ -1,0 +1,84 @@
+{
+    "events": [
+      {
+        "name": "Event 1",
+        "description": "Description for Event 1.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/scholar.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 2",
+        "description": "Description for Event 2.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 3",
+        "description": "Description for Event 3.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+      {
+        "name": "Event 4",
+        "description": "Description for Event 4.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 5",
+        "description": "Description for Event 5.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 6",
+        "description": "Description for Event6.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+      {
+        "name": "Event 7",
+        "description": "Description for Event 7.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 8",
+        "description": "Description for Event 8.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      },
+
+      {
+        "name": "Event 9",
+        "description": "Description for Event 9.",
+        "time": "2024-01-25T18:00:00",
+        "venue": "Venue 1",
+        "posterImg": "/poster/cs.jpg",
+        "link": "/events/event1"
+      }
+    
+    ]
+  }
+  

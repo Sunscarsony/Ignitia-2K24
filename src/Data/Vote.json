@@ -1,0 +1,69 @@
+[
+  {
+    "title": "POOL - 1",
+    "description": "",
+    "image": "/images/vote-1.png",
+    "celebs": [
+      {
+        "name": "Sonu Nigam",
+        "img": "/images/sonu.webp"
+      },
+      {
+        "name": "Vishal-Shekhar",
+        "img": "/images/v-s.webp"
+      },
+      {
+        "name": "Shankar Mahadevan",
+        "img": "/images/shankarmahadevan.webp"
+      },
+      {
+        "name": "Guru Randhawa",
+        "img": "/images/gururandhawa.webp"
+      },
+      {
+        "name": "Sunidhi Chauhan",
+        "img": "/images/sunidhichauhan.webp"
+      }
+    ]
+  },
+  {
+    "title": "POOL - 2",
+    "description": "",
+    "image": "/images/vote-2.png",
+    "celebs": [
+      { "name": "Kailash Kher", "img": "/images/kailashkher.webp" },
+      { "name": "Shaan", "img": "/images/shaan.webp" },
+      { "name": "Vishal Mishra", "img": "/images/vishalmishra.webp" },
+      { "name": "Darshan Raval", "img": "/images/darshanraval.webp" },
+      { "name": "Ankit Tiwari", "img": "/images/ankittiwari.webp" },
+      { "name": "Salim-Sulaiman", "img": "/images/salimsulaiman.webp" }
+    ]
+  },
+  {
+    "title": "POOL - 3",
+    "description": "",
+    "image": "/images/vote-3.png",
+    "celebs": [
+      { "name": "Adnan Sami", "img": "/images/adnansami.webp" },
+      { "name": "Millind Gaba", "img": "/images/millindgaba.webp" },
+      { "name": "Sachin-Jigar", "img": "/images/sachinjigar.webp" },
+      { "name": "Sharry Maan", "img": "/images/sharrymaan.webp" },
+      { "name": "Shilpa Rao", "img": "/images/shilparao.webp" }
+    ]
+  },
+  {
+    "title": "POOL - 4",
+    "description": "",
+    "image": "/images/vote-4.png",
+    "celebs": [
+      { "name": "Jassie Gill", "img": "/images/jassiegill.webp" },
+      { "name": "Twins String Band", "img": "/images/twinsstringband.webp" },
+      { "name": "Agnee Band", "img": "/images/agneeband.webp" },
+      { "name": "The Yellow Diary", "img": "/images/theyellowdiary.webp" },
+      { "name": "Western Ghat Band", "img": "/images/westernghatband.webp" },
+      { "name": "Sagar Bhatia", "img": "/images/sagarbhatia.webp" },
+      { "name": "Raghav Chaitanya", "img": "/images/raghavchaitanya.webp" },
+      { "name": "Usha Uthup", "img": "/images/ushauthup.webp" }
+    ]
+  }
+]

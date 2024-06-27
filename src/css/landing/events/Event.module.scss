@@ -1,0 +1,183 @@
+// 'Event.module.scss'
+
+$cardGap: 50px; // Adjust the gap between cards
+
+
+.title {
+  font-size: 3.5em; /* Adjust the font size as needed */
+  text-align: center;
+  margin-top: 60px;
+  font-family: iosFont;
+  background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  font-weight: 300;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+
+
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: clamp(40px,5vw,100px);
+}
+
+@keyframes MoveBackgroundPosition { 
+  0% {
+    background-position: 0% 50%
+  }
+  
+  50% {
+    background-position: 100% 50%
+  }
+  
+  100% {
+    background-position: 0% 50%
+  }
+}
+
+
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $cardGap;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(11, 11, 11, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, filter 0.5s ease-in-out;
+  height: 400px;
+  width: 250px;
+  margin-bottom: $cardGap; // Add gap at the bottom
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  background: radial-gradient(circle at 52.1% -29.6%, rgb(144, 17, 105) 0%, rgb(51, 0, 131) 100.2%);
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  filter: brightness(1);
+  animation: glow 3s infinite alternate;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-text {
+  padding: 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(rgba(189, 29, 29, 0), rgba(12, 146, 255, 0.8)); /* Gradient added */
+}
+
+.popup-container {
+  position: relative;
+}
+
+.popup {
+  position: fixed;
+  height: 400px;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background: black;
+  z-index: 1001;
+  box-shadow: 0 0 10px rgb(248, 248, 248);
+  border-radius: 25px;
+  overflow: hidden;
+  animation: glow 0.5s infinite alternate;
+}
+
+.popup img {
+  width: 100%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.popup-text {
+  color: white;
+}
+
+.heading-animation {
+  animation: headingGlow 5s infinite alternate;
+}
+
+
+
+
+
+
+
+
+.tabButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px; /* Adjust the margin as needed */
+}
+
+.tabButton {
+  font-family: iosFont;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -30px; /* Adjust the margin as needed */
+  background-color: #5701a2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 30px;
+  position: relative;
+  transition: box-shadow 0.3s ease; /* Add a smooth transition for the glow effect */
+}
+
+.tabButton:hover {
+  animation: neonGlow 1s infinite; /* Apply the neon glow animation on hover */
+  box-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad, 0 0 30px #8e44ad; /* Neon glow effect in purple */
+}
+
+@keyframes neonGlow {
+  0% {
+    box-shadow: 0 0 5px #8e44ad, 0 0 10px #8e44ad, 0 0 15px #8e44ad; /* Neon glow effect at the start of the animation */
+  }
+  50% {
+    box-shadow: 0 0 10px #8e44ad, 0 0 20px #8e44ad, 0 0 30px #8e44ad; /* Neon glow effect halfway through the animation */
+  }
+  100% {
+    box-shadow: 0 0 5px #8e44ad, 0 0 10px #8e44ad, 0 0 15px #8e44ad; /* Neon glow effect at the end of the animation */
+  }
+}
+
+
+
+
+
+.pageNumber {
+  color: #fff;
+  font-size: 16px;
+  font-family: iosFont;
+  animation: pageZoom 1s infinite; /* Add a keyframe animation to the page number */
+}
+
+@keyframes pageZoom {
+  0%, 100% {
+    transform: scale(1); /* No zoom at the start and end of the animation */
+  }
+  50% {
+    transform: scale(1.2); /* Zoom in halfway through the animation */
+  }
+}
+

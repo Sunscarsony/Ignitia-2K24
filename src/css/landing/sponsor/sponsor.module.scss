@@ -1,0 +1,326 @@
+.sponsorPage {
+
+    background-image: url(/public/images/dark-black-bg.jpg);
+    .headerSection {
+      text-align: center;
+      margin-top: 60px;
+      font-family: iosFont;
+  
+    }
+    .goldenTitle  {
+      background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+      background-size: 150%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+      animation: MoveBackgroundPosition 6s ease-in-out infinite;
+      font-size: 3.5rem;
+    }
+
+    .goldenSubtitle{
+      background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+      background-size: 150%;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+      animation: MoveBackgroundPosition 6s ease-in-out infinite;
+      font-size: 2rem;
+
+    }
+  
+
+    .sponsorshipOpportunities {
+        text-align: justify;
+        padding: 40px;
+        color: gold;
+        width: 100%;
+      
+        h2 {
+          font-size: 2em;
+          margin-bottom: 20px;
+          font-family: iosFont;
+        }
+      b {
+        color: #c99b52;
+        font-size: 20px;
+      }
+        p {
+          margin-block-end: 40px;
+    color: white;
+    font-weight: 550;
+    text-align: justify;
+
+        }
+
+      
+        .hoverBox {
+          width: 500px;
+          background: rgba(255, 255, 255, 0.1);
+          backdrop-filter: blur(10px);
+          padding: 20px;
+          border-radius: 20px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          margin: 0 auto;
+          transition: all 0.3s ease;
+      
+          &:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          }
+      
+          input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: transparent;
+            color: white;
+      
+            &:focus {
+              outline: none;
+              border-color: gold;
+            }
+          }
+      
+          .submitButton {
+            display: block;
+            width: 150px;
+            height: auto;
+            padding: 10px;
+            margin: 20px auto;
+            background-color: #ff00ff; // Neon color
+            color: white;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff; // Neon glow effect
+            transition: background-color 0.3s, box-shadow 0.3s;
+      
+            &:hover {
+              background-color: #ff66ff;
+              box-shadow: 0 0 15px #ff66ff, 0 0 25px #ff66ff, 0 0 35px #ff66ff;
+            }
+          }
+        }
+      }
+      
+
+
+    
+    .uspSection {
+      display: flex;
+      padding: 80px;
+      justify-content: space-around;
+  
+      .card {
+        width: 300px;
+        height: 450px;
+        perspective: 1000px;
+  
+        .cardFront, .cardBack {
+          width: 100%;
+          height: 100%;
+          border-radius: 15px;
+          backface-visibility: hidden;
+          position: absolute;
+          transition: transform 0.6s linear;
+        }
+  
+        .cardFront {
+          background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+        }
+
+        .cardFront .text
+        {
+          font-size: 1.1rem;
+          color: white;
+          text-align: center;
+          margin: 15px;
+          font-family: rubik, sans-serif;
+          font-weight: 550;
+          text-align: justify;
+        }
+
+        .cardFront .heading
+        {
+          margin: 15px;
+          text-align: center;
+          font-size: 25px;
+          font-family: iosFont, sans-serif;
+          background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+        }
+
+        .cardBack .heading
+        {
+          margin: 15px;
+          text-align: center;
+          font-size: 25px;
+          font-family: iosFont, sans-serif;
+          background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+  background-size: 150%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  filter: drop-shadow(0 0 1px rgba(255, 200, 0, .3));
+  animation: MoveBackgroundPosition 6s ease-in-out infinite;
+        }
+        
+        
+        .cardBack .text
+        {
+          font-size: 1.1rem;
+          color: white;
+          text-align: center;
+          margin: 15px;
+          font-family: rubik, sans-serif;
+          font-weight: 550;
+          text-align: justify;
+        }
+        .cardBack {
+          background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+           
+          transform: rotateY(180deg);
+          
+        }
+  
+        &:hover .cardFront {
+          transform: rotateY(-180deg);
+        }
+  
+        &:hover .cardBack {
+          transform: rotateY(0deg);
+        }
+      }
+    }
+
+    .slider-img{
+      width: 100px;
+      height: auto;
+    }
+  
+    .sponsorshipOpportunities {
+      text-align: center;
+      .hoverBox {
+        background: linear-gradient(109.6deg, rgb(43, 1, 91) 13.4%, rgb(122, 2, 54) 100.2%);
+      
+        margin: 20px auto;
+        padding: 20px;
+        width: 350px;
+        backdrop-filter: blur(100px);
+        border-radius: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.3s ease;
+  
+        &:hover {
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        
+  
+        input, select {
+          margin: 15px;
+          border-radius: 15px;
+          border: 1px solid goldenrod;
+          width: calc(100% - 20px);
+          background-color: white;
+          color: grey;
+          text-align: justify;
+        }
+  
+        .submitButton {
+          display: block;
+          width: 100px;
+          padding: 10px;
+          margin: 10px auto;
+          border-radius: 10%;
+          border: none;
+          background-color: #6a00b1; // Neon color
+          color: white;
+          box-shadow: 0 0 10px rgb(45, 44, 44); // Neon glow
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+  
+          &:hover {
+            background-color: rgb(234, 0, 255);
+          }
+        }
+      }
+    }
+  }
+  
+
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+.sponsorshipTable {
+  width: 80%;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sponsorshipTable th,
+.sponsorshipTable td {
+  border: 1px solid #ffffff;
+  padding: 8px;
+  text-align: center;
+}
+
+.sponsorshipTable th {
+  background-color: #9d00ff;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .sponsorPage {
+    .headerSection {
+      margin-top: 30px;
+    }
+
+    .goldenTitle {
+      font-size: 2.5rem; 
+    }
+
+    .goldenSubtitle {
+      font-size: 1.5rem; 
+    }
+
+    .sponsorshipOpportunities {
+      padding: 20px; 
+    }
+
+    .uspSection {
+      padding: 40px 20px; 
+      flex-direction: column; 
+      align-items: center; 
+      gap: 20px; 
+    }
+
+    .slider-img {
+      width: 50px; 
+    }
+
+    .sponsorshipOpportunities .hoverBox {
+      width: 80%; 
+      margin: 20px auto;
+    }
+
+    .sponsorshipOpportunities input,
+    .sponsorshipOpportunities select {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+
+    .sponsorshipOpportunities .submitButton {
+      width: 100%; 
+    }
+  }
+}

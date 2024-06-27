@@ -1,0 +1,74 @@
+{
+    "error": false,
+    "responseData": [
+        {
+            "id": 1,
+            "name": "Food",
+            "sponsers": [
+                {
+                    "SponserID": "Sponser_e3d4720d0ba7bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "powered By",
+                    "Type_id": 1
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d07bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser2",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Golden Sponser",
+                    "Type_id": 2
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d0ba7bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser3",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Sponsorship Partner",
+                    "Type_id": 3
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d07bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser4",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Silver Sponser",
+                    "Type_id": 4
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Technology",
+            "sponsers": [
+                {
+                    "SponserID": "Sponser_e3d4720d0ba7bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "powered By",
+                    "Type_id": 1
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d07bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser2",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Golden Sponser",
+                    "Type_id": 2
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d0ba7bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser3",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Sponsorship Partner",
+                    "Type_id": 3
+                },
+                {
+                    "SponserID": "Sponser_e3d4720d07bfaf0b41741e1788c36f",
+                    "name": "Sample Sponser4",
+                    "SImage": "https://d28yx2zopyx2ad.cloudfront.net/sponser_images/20240120200045_7e50e603bba643f3a466bf302ce3d312.jpg",
+                    "Type": "Silver Sponser",
+                    "Type_id": 4
+                }
+            ]
+        }
+    ],
+    "status_code": 200
+}

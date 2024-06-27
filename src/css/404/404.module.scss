@@ -1,0 +1,68 @@
+@font-face {
+  font-family: iosFont;
+  src: url('/font/ios.ttf');
+}
+.notFoundContainer {
+  background: linear-gradient(#432a6d, #432a6d);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+  // height: 100vh;
+  margin: 0;
+}
+
+.heading {
+  height: 1px;
+  width: 600px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px; 
+  //font: 10 50px/1.3 'Oleo Script', Helvetica, sans-serif;
+}
+
+.container {
+  height: 60px;
+  // width: 600px;
+  text-align: center;
+  color: white;
+ 
+ 
+  
+}
+
+.notFoundImage {
+  max-width: 50%;
+  height: auto;
+}
+.notFoundImage1 {
+  max-width: 7%;
+  height: auto;
+}
+
+
+.notFoundButton {
+  display: inline-block;
+  background-color: #fff;
+  color: #432a6d;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 50px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+  margin-top: -150px;
+
+  &:hover {
+    background-color: #432a6d;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(40, 0, 105, 0.3);
+   
+    transform: scale(1.1);
+
+  }
+}

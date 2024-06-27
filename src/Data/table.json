@@ -1,0 +1,85 @@
+[
+  {
+    "tier": "Powered By",
+    "price": "Rs 10 Lacs",
+    "features": [
+      "Co-Branding",
+      "Logo, link & Blurb on the Sponsors Page",
+      "Exhibit Booth: 30x30",
+      "Speaker Slot",
+      "Logo on Onsite Sponsor Signage",
+      "Brand Wall",
+      "SMM",
+      "Paid SMM",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Events",
+    "price": "Rs 5 Lacs",
+    "features": [
+      "Logo, link & Blurb on the Sponsors Page",
+      "Exhibit Booth: 30x30",
+      "Speaker Slot",
+      "Logo on Onsite Sponsor Signage",
+      "Brand Wall",
+      "SMM",
+      "Paid SMM",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Platinum",
+    "price": "Rs 2 Lacs",
+    "features": [
+      "Logo, link & Blurb on the Sponsors Page",
+      "Exhibit Booth: 20x20",
+      "Speaker Slot",
+      "Logo on Onsite Sponsor Signage",
+      "Brand Wall",
+      "SMM",
+      "Paid SMM",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Diamond",
+    "price": "Rs 1 Lacs",
+    "features": [
+      "Logo, link & Blurb on the Sponsors Page",
+      "Brand Wall",
+      "SMM",
+      "Paid SMM",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Gold",
+    "price": "Rs 50k",
+    "features": [
+      "Logo, link & Blurb on the Sponsors Page",
+      "Brand Wall",
+      "SMM",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Silver",
+    "price": "Rs 30k",
+    "features": [
+      "Logo, link & Blurb on the Sponsors Page",
+      "Brand Wall",
+      "PA Announcement"
+    ]
+  },
+  {
+    "tier": "Bronze",
+    "price": "Rs 10k",
+    "features": [
+      "Brand Wall",
+      "PA Announcement"
+    ]
+  }
+
+  
+]
